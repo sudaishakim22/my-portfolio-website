@@ -9,8 +9,8 @@ export default function Intro() {
     init(textRef.current, {
       showCursor: true,
       backDelay: 1500,
-      backSpeed:60,
-      strings: ["Developer", "Designer", "Content Creator"],
+      backSpeed: 60,
+      strings: ["Web Developer", "Frontend Engineer"],
     });
   }, []);
 
@@ -18,13 +18,15 @@ export default function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/man.png" alt="" />
+          <img src="assets/3411109.jpg" alt="" />
         </div>
       </div>
       <div className="right">
         <div className="wrapper">
           <h2>Hi There, I'm</h2>
-          <h1>Safak Kocaoglu</h1>
+          <h1>
+            Muhammad Sudais <br /> Hakim
+          </h1>
           <h3>
             Freelance <span ref={textRef}></span>
           </h3>
